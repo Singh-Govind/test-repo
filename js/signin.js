@@ -3,7 +3,7 @@
     var userData = JSON.parse(localStorage.getItem("userData"));
     if(JSON.parse(localStorage.getItem("signin")) != null)
     {
-        window.location.href="#";
+        window.location.href="./signin.html";
     }
 
     form.addEventListener("submit", function(){
@@ -15,14 +15,14 @@
         }
 
         if(userData == null){
-            window.location.href="#"
+            window.location.href="./signup.html"
             alert("Please Create Account");
         }
           
         else if(data.signinemail == userData.useremail && data.signuppassword == userData.userpassword)
         {
             localStorage.setItem("signin",JSON.stringify(data));
-            window.location.href="";
+            window.location.href="./index.html";
             alert("Login succesfull");
         }
         else{

@@ -1,6 +1,7 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
 #rooms{
     height:300px;
     width:auto;
@@ -61,17 +62,18 @@
       margin-top: -25px;
   }
   #total{
-      background-color: #E0E0E0;
+      /* background-color: #E0E0E0; */
       height: auto;
       width: auto;
   }
  #one{
-     height:1000px;
-     width:1010px;
+     /* height:100%; */
+     width:65%;
      background-color: #FFFFFF;
-     margin-left: 70px;
+     margin: auto;
+     /* margin-left: 70px; */
      
-     padding-left: 10px;
+     /* padding-left: 10px; */
      
  }
  #rat,h2{
@@ -163,12 +165,10 @@
     }
 
     #two{
-        height:120px;
-     width:1010px;
+        /* height:120px; */
+     width:65%;
      background-color: #FFFFFF;
-     margin-left: 70px;
-     margin-top: 20px;
-     padding-left: 10px;
+     margin: 20px auto;
     }
     #lock{
         display: flex;
@@ -180,7 +180,7 @@
     }
 
     #secondpage{
-        background-color:#E0E0E0 ;
+        /* background-color:#E0E0E0 ; */
         height:1000px;
         width:1010px;
         margin-top: 20px;
@@ -231,10 +231,11 @@
   }
 
  #three{
-    height:920px;
-    width:1010px;
+    /* height:920px; */
+    width:65%;
+    margin: 0 auto;
     margin-top: -900px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     display: flex;
     
  }
@@ -266,10 +267,13 @@
      margin-left: 270px;
      margin-top: -20px;
  }
+ #dow > h2{
+     margin-top: -30px;
+ }
  #down{
      height:120px;
      width:auto;
-     margin-top:70px;
+     margin-top:60px;
  }
 #butto>button{
     background-color: #CC0066;
@@ -282,7 +286,8 @@
     margin-left:225px
 }
 #butto{
-    margin-top:-25px;
+    margin-top:-75px;
+    margin-left: -30px;
     
 }
 #dow{
@@ -313,3 +318,63 @@
     
 
  
+  /* check availability*/
+
+
+.date{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+.date>div, #travelers>div{
+    line-height: 3px;
+}
+.date>div>input{
+    border: none;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.date>i, #travelers>i{
+    width: 15%;
+    margin-left: 8px;
+}
+.date>div>p, #travelers>div>p, #counters{
+    font-size:small;
+    letter-spacing: 0.5px;
+}
+#travelers{
+    width: 23%;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    cursor: default;
+    z-index: 10;
+    margin-top: -925px;
+    margin-right: 35px;
+    color: red;
+}
+#travelers>div>div, #counters>div{
+    display: flex;
+}
+#counters{
+    margin: 5px;
+}
+#counters>div>button{
+    /* background-color: transparent; */
+    border: 0.1px solid rgb(194, 193, 193);
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: -2px;
+    text-align: center;
+}
+
+#counters>div>#c1, #counters>div>#c2{
+    margin-right: 4px;
+    vertical-align: middle;
+}
+#search-box-checkavailability{
+    width: 65%;
+    margin: auto;
+}

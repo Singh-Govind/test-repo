@@ -41,6 +41,7 @@ a{
 #main-container{
     width: 75%;
     margin: auto;
+    margin-bottom: 100px;
 }
 #main-container > h2{
     margin: 25px auto;

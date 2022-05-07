@@ -101,6 +101,12 @@
      border-radius: 5px;
      cursor: pointer;
 }
+
+#button2 > a{
+    color: rgb(36, 178, 255);
+    text-decoration: none;
+}
+
 #button_list{
     color: #0C6FC8;
     background-color:  rgb(2, 37, 60);

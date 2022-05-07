@@ -10,7 +10,7 @@ let hotelName = document.querySelector("#reserved-hotel-name");
 
 let submitButton = document.querySelector("#submit");
 
-var cardNumber = "4598751562368695";
+var cardNumber = "1234";
 // var total_price = 92.29+11.07;
 
 
@@ -52,7 +52,7 @@ function verification(){
         if(cardNum == cardNumber)
         {
             alert("Booking Success!");
-            window.location.href = "index.html";
+            window.location.href = "./index.html";
         }
         else
         {

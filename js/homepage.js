@@ -49,7 +49,7 @@ function searchTravelingFunc(){
         alert ("please select Destination");
     }
     else {
-        window.location.href="#";
+        window.location.href="./goa.html";
     }
 }
 

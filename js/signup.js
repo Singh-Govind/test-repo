@@ -1,7 +1,7 @@
 
     if(JSON.parse(localStorage.getItem("signin")) != null)
 {
-    window.location.href = "#";
+    alert("please enter information");
 }
 
 var form = document.querySelector("#sign_up_form");
@@ -18,5 +18,5 @@ form.addEventListener("submit", function(){
 
     localStorage.setItem("userData", JSON.stringify(data));
     // alert("Sign Success");
-    window.location.href="welcome.html"
+    window.location.href="./welcome.html"
 })

@@ -1,8 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
-   }
+}
 #navbar{
     width: 100%;
     height:auto;
@@ -11,6 +9,7 @@
     justify-content: space-between;
     border: 1px solid black;
     padding: 20px;
+    margin-bottom: 20px;
 }
 #navbar_logo{
     width: 30%;
@@ -138,3 +137,8 @@ p:hover{
         { #navbar_options{
             
         }}
+
+
+        #footer{
+            margin-top: 50px;
+        }

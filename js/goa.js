@@ -163,6 +163,10 @@ function display(dataGoa) {
     innerbox.append(nam, location, detail, refund, costBox);
     hotelBox.append(hotelimg, innerbox);
     hotel.append(hotelBox);
+
+    hotel.addEventListener("click", function(){
+      window.location.href = "./reserve1/reserve.html";
+    });
   });
 }
 

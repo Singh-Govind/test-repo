@@ -7,9 +7,57 @@
     <link rel="stylesheet" href="./css/payment.css">
     <script src="https://kit.fontawesome.com/fb4898ffd1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/navbar.css" type="text/css">
+    
     <title>Orbitz: Payment</title>
 </head>
 <body>
+
+
+    <!-- navbar -->
+
+    <div id="navbar">
+        <div id="navbar_logo">
+            <img src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2" alt="navbar_logo_image"><a href="index.html"></a>
+            <div>
+                <p onclick="show()">More travel<i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+            <div id="moreopt">
+                <div><i class="fa-solid fa-hotel"></i>Stays</div>
+                <div><i class="fa-solid fa-plane"></i>Flight</div>
+                <div><i class="fa-solid fa-bag-shopping"></i>Packages</div>
+                <div><i class="fa-solid fa-car-rear"></i>Cars</div>
+                <div><i class="fa-solid fa-ship"></i>Crises</div>
+                <div><i class="fa-solid fa-ticket"></i>Things to do</div>
+                <div>Deals</div>
+                <div>Group & Meetings</div>
+                <div>Travel Blog</div> 
+            </div>
+        </div>
+            <div id="navbar_options">
+                <div class="espanol">Espanol</div>
+                <div class="list_of_property">List your property</div>
+                <div class="support"> <a href="./support.html">Support </a></div>
+                <div class="trips">Trips</div>
+                <div id="showusername">
+                    <p onclick="showsign()">Sign in</p>
+                </div>
+                <div id="sing_in_button">
+                    <!-- <a href="signin.html">Sign in</a> -->
+                    <div><h3>Members can access discounts, points and special features</h3></div>
+                    <div class="signin_redirect"><button><a href="signin.html">Sign in</a></button></div>
+                    <div class="signup_redirect"><a href="signup.html">Create a free account</a></div>
+                    <div><p>List of favorites</p></div>
+                    <div><p>Loyalty program</p></div>
+                    <div><p>Feedback</p></div>
+                </div>
+            </div>
+</div>
+
+    <!-- navbar ending -->
+
+
     <div id="main-container">
         <h2>Secure Bookings <i class="fa-solid fa-minus"></i> only takes 2 minutes!</h2>
         <div id="covid-message">
@@ -335,6 +383,55 @@
             </div>
         </div>
     </div>
+
+    <!--last row footer secion -->
+    <div id="footer">
+        <div>
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="">
+        </div>
+        <div>
+            <h4>Comapany</h4>
+            <p>About</p>
+            <p>Jobs</p>
+            <p>List your Property</p>
+            <p>Partenerships</p>
+            <p>Newsroom</p>
+            <p>Invester Relation</p>
+            <p>Site Map</p>
+            <p>Orbitz Reward</p>
+            <p>Advertising</p>
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <p>Hotels in United States</p>
+            <p>Vacation Rental in United Sates</p>
+            <p>Car Rentals in United States</p>
+            <p>Domestic Flights</p>
+            <p>Vacation Package in United States</p>
+            <p>Orbitz Reward</p>
+            <p>Orbitz Coupans</p>
+            <p>LGBTQ Travel</p>
+            <p>Unique Accommodations</p>
+            <p>Travel Blog</p>
+        </div>
+        <div>
+            <h4>Policies</h4>
+            <p>Privacy Policy</p>
+            <p>Terms of Us</p>
+            <p>Vrbo term and conditions</p>
+            <p>Orbitz Rewards Terms</p>
+            <p>Do not sell my personal information</p>
+        </div>
+        <div>
+            <h4>Help</h4>
+            <p>Support</p>
+            <p>Cancel your hotel or vacation renatl booking</p>
+            <p>cancel your flight</p>
+            <p>Refund timelines,policies</p>
+            <p>Use an Orbitz Coupan</p>
+        </div>
+    </div>
 </body>
 </html>
 <script src="./js/payment.js"></script>
+<script src="./js/navbar.js"></script>
