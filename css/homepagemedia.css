@@ -26,7 +26,7 @@
         width: 90%;
     }
     #travelers{
-        width: 85%;
+        width: 90%;
     }
     #travel-category{
         max-width: 96%;
@@ -79,6 +79,9 @@
     }
     #row8-dest-box>h1{
         font-size: 16px;
+    }
+    #app-info>ul>li{
+        margin-left: 14px;
     }
 
 }
@@ -141,6 +144,9 @@
         gap: 35px;
         margin-top:30px;
 
+    }
+    #app-info>ul{
+        margin-left: 3px;
     }
     #row4-deals>div:nth-child(2){
         width: 50%;
@@ -276,6 +282,9 @@
         height: 25px;
         padding: 0;
         font-size: 9px;
+    }
+    #app-info>ul>li{
+        margin-left: 12px;
     }
     #app-btn{
         font-size: 8px;
