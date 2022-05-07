@@ -222,7 +222,7 @@ form{
     width: 100%;
 }
 .text-wrapp>p{
-    margin-top: -5px;
+    margin-top: -18px;
 }
 /* ==========*/
 /* row4 top deals*/
@@ -255,7 +255,7 @@ form{
     text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
 }
 .deal-text-wrapp>p{
-    margin-top: -5px;
+    margin-top: -18px;
 }
 .deal-text-wrapp>h3, .deal-text-wrapp>p{
     outline-color: white;
@@ -329,7 +329,7 @@ form{
 }
 .tips-info{
     text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
-    line-height: 21px;
+    line-height: 15px;
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
@@ -395,7 +395,7 @@ form{
 }
 #app-info>h2{
     color: #1F1F1F;
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 700;
     line-height: 35px;
     margin-bottom: 4px;
@@ -422,7 +422,7 @@ form{
 }
 #get-app-form>h3{
     color: #1F1F1F;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 5px;
 }
@@ -436,7 +436,7 @@ form{
     padding: 13px 10px;
     cursor: pointer;
     color: #616161;
-    border-color: #616161;
+    border: 1px solid #616161;
 }
 #app-btn{
     background-color: #C83259;

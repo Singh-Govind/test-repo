@@ -46,10 +46,10 @@ function searchTravelingFunc(){
     localStorage.setItem("searchData",JSON.stringify(inpDataObj));
 
     if (cityLocation==""){
-        alert ("please insert data");
+        alert ("please select Destination");
     }
     else {
-        window.location.href="";
+        window.location.href="#";
     }
 }
 

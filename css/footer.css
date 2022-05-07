@@ -17,8 +17,6 @@
     color:rgb(47,154,179);
     font-size: 13px;
     font-family: sans-serif;
-    text-decoration: none;
-    display: block;
     line-height: 35px;
 }
 #footer>div>p:hover{
