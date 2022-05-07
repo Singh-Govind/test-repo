@@ -195,3 +195,4 @@ function sortfunction() {
     display(dataGoa);
   }
 }
+localStorage.setItem("hotel", JSON.stringify(dataGoa));
