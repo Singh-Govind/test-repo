@@ -112,18 +112,23 @@ form{
     margin: 5px;
 }
 #counters>div>button{
-    background-color: transparent;
-    border: 0.1px solid rgb(194, 193, 193);
+    background-color: rgb(206, 231, 245);
     margin-right: 8px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -2px;
     text-align: center;
+    border: none;
+    border-radius:6px;
+    padding-bottom: -2px;
+    height: 18px;
 }
 
 #counters>div>#c1, #counters>div>#c2{
     margin-right: 4px;
     vertical-align: middle;
+    color:red;
+    font-weight: 600;
 }
 
 
@@ -417,9 +422,6 @@ form{
     display: flex;
     justify-content: center;
     margin-top: 8px;
-}
-#app-info>ul{
-    margin-left: 5px;
 }
 #app-info>ul>li{
     color: #616161;
